@@ -33,30 +33,37 @@ public class objectMover : MonoBehaviour
         {
             targetObject = null;
         }
-
-
-        if(Input.GetMouseButton(0) && targetObject != null)
+        if (targetObject != null)
         {
-            holding = true;
-            targetObject.GetComponent<Rigidbody>().useGravity = false;
-            //targetObject.transform.rotation = transform.rotation;
-            targetObject.GetComponent<Rigidbody>().position = 
-                new Vector3(Mathf.SmoothStep(targetObject.GetComponent<Rigidbody>().position.x, holdPosition.transform.position.x, stepSmoothing),
-                Mathf.SmoothStep(targetObject.GetComponent<Rigidbody>().position.y, holdPosition.transform.position.y, stepSmoothing),
-                Mathf.SmoothStep(targetObject.GetComponent<Rigidbody>().position.z, holdPosition.transform.position.z, stepSmoothing));
-            if (Input.GetKey(KeyCode.E))
+            if (targetObject.CompareTag("Door") && Input.GetMouseButton(0))
             {
-                targetObject.layer = 0;
-                targetObject.GetComponent<Rigidbody>().useGravity = true;
-                targetObject.GetComponent<Rigidbody>().velocity = transform.forward * throwForce;
-                targetObject = null;
+                Debug.Log("Opening Door");
+                targetObject.GetComponent<openDoor>().OpenDoor();
             }
-        }
-        if (Input.GetMouseButtonUp(0) && targetObject != null)
-        {
-            targetObject.GetComponent<Rigidbody>().useGravity = true;
-            holding = false;
+            else if (Input.GetMouseButton(0) && targetObject != null)
+            {
+                holding = true;
+                targetObject.GetComponent<Rigidbody>().useGravity = false;
+                targetObject.transform.position = holdPosition.transform.position;
+                /*targetObject.GetComponent<Rigidbody>().position = 
+                    new Vector3(Mathf.SmoothStep(targetObject.GetComponent<Rigidbody>().position.x, holdPosition.transform.position.x, stepSmoothing),
+                    Mathf.SmoothStep(targetObject.GetComponent<Rigidbody>().position.y, holdPosition.transform.position.y, stepSmoothing),
+                    Mathf.SmoothStep(targetObject.GetComponent<Rigidbody>().position.z, holdPosition.transform.position.z, stepSmoothing)); */
+                if (Input.GetKey(KeyCode.E))
+                {
+                    targetObject.layer = 0;
+                    targetObject.GetComponent<Rigidbody>().useGravity = true;
+                    targetObject.GetComponent<Rigidbody>().velocity = transform.forward * throwForce;
+                    targetObject = null;
+                }
+            }
+            else if (Input.GetMouseButtonUp(0) && targetObject != null)
+            {
+                targetObject.GetComponent<Rigidbody>().useGravity = true;
+                holding = false;
+            }
+
+
         }
     }
-
 }
