@@ -18,9 +18,8 @@ public class openDoor : MonoBehaviour
     {
         if (opening)
         {
-            Debug.Log("First Door");
+            Debug.Log("Opening Door");
             transform.GetChild(0).transform.Rotate(new Vector3(0, 90) * Time.deltaTime) ;
-            Debug.Log("Second Door");
             transform.GetChild(1).transform.Rotate(new Vector3(0, -90) * Time.deltaTime);
         }
         if(transform.GetChild(0).transform.localEulerAngles.y >= 90) {
@@ -29,16 +28,15 @@ public class openDoor : MonoBehaviour
             opened = true;
         }
 
-        if (closing)
+        if (closing && !opening)
         {
-            Debug.Log("First Door");
+            Debug.Log("Closing Door");
             transform.GetChild(0).transform.Rotate(new Vector3(0, -90) * Time.deltaTime);
-            Debug.Log("Second Door");
             transform.GetChild(1).transform.Rotate(new Vector3(0, 90) * Time.deltaTime);
         }
-        if (transform.GetChild(0).transform.localEulerAngles.y <= 2)
+        if (transform.GetChild(0).transform.localEulerAngles.y <= 2 && !opening)
         {
-            Debug.Log("Closed door");
+            
             closing = false;
             gameObject.GetComponent<BoxCollider>().enabled = true;
             opened = false;
@@ -58,4 +56,7 @@ public class openDoor : MonoBehaviour
     {
         closing = true;
     }
+
+    
+
 }

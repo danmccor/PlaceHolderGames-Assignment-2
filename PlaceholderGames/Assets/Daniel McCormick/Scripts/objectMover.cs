@@ -8,6 +8,7 @@ public class objectMover : MonoBehaviour
     public float stepSmoothing = 3f;
     public float rayDistance;
     int layermask = 1 << 9;
+    int layermaskDoor = 1 << 13;
     public GameObject targetObject;
     private GameObject holdPosition;
     private bool holding = false;
@@ -29,6 +30,13 @@ public class objectMover : MonoBehaviour
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.green);
             targetObject = hit.collider.gameObject;
         }
+        if (Physics.Raycast(ray, out hit, rayDistance, layermaskDoor, QueryTriggerInteraction.UseGlobal))
+        {
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.green);
+            targetObject = hit.collider.gameObject;
+        }
+
+
         else if (holding == false)
         {
             targetObject = null;
