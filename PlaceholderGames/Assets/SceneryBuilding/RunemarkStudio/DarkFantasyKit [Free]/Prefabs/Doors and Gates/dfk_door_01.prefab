@@ -352,8 +352,8 @@ GameObject:
   - component: {fileID: 4684852159627100}
   - component: {fileID: 1537611500}
   - component: {fileID: 1537611498}
-  - component: {fileID: 1537611496}
   - component: {fileID: 1537611499}
+  - component: {fileID: 4953170587853109871}
   m_Layer: 13
   m_Name: dfk_door_01
   m_TagString: Door
@@ -406,21 +406,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5393614, y: 2.412875, z: 0.13949962}
   m_Center: {x: -0.026974887, y: 1.2019848, z: -0.104573466}
---- !u!114 &1537611496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921508391727336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa25ceb70770bc14ca4f61f791d77cad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selfShatter: 0
-  shattered: {fileID: 7887017978428227638, guid: 0c31ee3f12fc4cc4f8c240273660cca8,
-    type: 3}
 --- !u!114 &1537611499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,3 +418,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62c8aad7ff27d984293aa916c66c9c58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorLocked: 0
+--- !u!208 &4953170587853109871
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921508391727336}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.7, y: 1.23, z: 0.06}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 1.18, z: -0.12}
+  m_TimeToStationary: 0.5

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Door
   - AI
+  - eventTrigger
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Player
   - AI
   - Door
-  - 
+  - Sanity
   - 
   - 
   - 

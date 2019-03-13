@@ -7,11 +7,13 @@ public class playerControls : MonoBehaviour {
 	public float speed = 5.0f;
 	public float gravity = -9.8f;
 	private CharacterController charCont;
+    public eventManager events;
 
     private float collisionTimer = 1.5f;
 	// Use this for initialization
 	void Start () {
-	charCont = GetComponent<CharacterController>();	
+	charCont = GetComponent<CharacterController>();
+        events = GetComponent<eventManager>();
 	}
 	
 	// Update is called once per frame
@@ -44,6 +46,7 @@ public class playerControls : MonoBehaviour {
                 collisionTimer -= Time.deltaTime;
             }
         }
-
+        
     }
+   
 }

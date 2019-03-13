@@ -8,8 +8,9 @@ public class AIMovement : MonoBehaviour
     public Transform goal;
     private NavMeshAgent agent;
     private GameObject lastDoor;
-    public Transform player;  
+    public Transform player;
 
+    public bool attackingPlayer = false;
     public bool followingPlayer = false;
     public float doorTimer = 0.3f;
     public float browsingTimer = 5f;
@@ -17,6 +18,7 @@ public class AIMovement : MonoBehaviour
 
     public float stoppingDistance = 5f;
     public bool openedDoor = false;
+
 
     int layermask = 1 << 9;
     Ray ray;
@@ -45,7 +47,7 @@ public class AIMovement : MonoBehaviour
         //        doorTimer -= Time.deltaTime;
         //    }
         //}
-        if (!followingPlayer) {
+        if (!followingPlayer && !attackingPlayer) {
             agent.stoppingDistance = 0.2f;
             if (agent.remainingDistance < 1)
             {
@@ -114,6 +116,15 @@ public class AIMovement : MonoBehaviour
             col.gameObject.GetComponent<openDoor>().CloseDoor();
             //lastDoor = col.gameObject;
             //openedDoor = true;
+        }
+        
+    }
+    void OnControllerColliderHit(ControllerColliderHit col)
+    {
+        if (col.gameObject.CompareTag("Player"))
+        {
+            gameObject.GetComponent<Player>().Health.CurVal -= 1;
+
         }
     }
 

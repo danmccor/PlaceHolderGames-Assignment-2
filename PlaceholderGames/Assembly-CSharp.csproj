@@ -53,19 +53,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CMSC\BarScript.cs" />
-     <Compile Include="Assets\CMSC\Player.cs" />
-     <Compile Include="Assets\CMSC\Stat.cs" />
-     <Compile Include="Assets\CMSC\torch.cs" />
+     <Compile Include="Assets\CMSC\Script\BarScript.cs" />
+     <Compile Include="Assets\CMSC\Script\lowSanity.cs" />
+     <Compile Include="Assets\CMSC\Script\Player.cs" />
+     <Compile Include="Assets\CMSC\Script\SanityControl.cs" />
+     <Compile Include="Assets\CMSC\Script\Stat.cs" />
+     <Compile Include="Assets\CMSC\Script\torch.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\AIMovement.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\AIscript.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\cameraControl.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\cameraController2.cs" />
+     <Compile Include="Assets\Daniel McCormick\Scripts\EventA.cs" />
+     <Compile Include="Assets\Daniel McCormick\Scripts\eventManager.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\objectMover.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\objectScript.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\playerControl2.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\playerControls.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\shatterScript.cs" />
+     <Compile Include="Assets\eventTriggers.cs" />
      <Compile Include="Assets\LookToPlayer.cs" />
      <Compile Include="Assets\navLevelBaker.cs" />
      <Compile Include="Assets\openDoor.cs" />
