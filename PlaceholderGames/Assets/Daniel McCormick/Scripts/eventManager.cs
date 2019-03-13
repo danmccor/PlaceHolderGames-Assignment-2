@@ -25,7 +25,6 @@ public class eventManager : MonoBehaviour
 
     public void CheckTrigger(int trigger)
     {
-        Debug.Log("God flooded us all");
         if (eventLinks.ContainsKey(trigger))
         {
             eventLinks[trigger].SetActive(true);

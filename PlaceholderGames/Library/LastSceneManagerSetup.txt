@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SceneryBuilding/RunemarkStudio/DarkFantasyKit [Free]/Scenes/Basement.unity
+- path: Assets/BlackThornReal.unity
   isLoaded: 1
   isActive: 1
