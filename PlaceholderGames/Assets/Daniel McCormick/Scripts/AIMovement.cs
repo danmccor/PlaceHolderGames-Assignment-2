@@ -12,6 +12,8 @@ public class AIMovement : MonoBehaviour
 
     public bool attackingPlayer = false;
     public bool followingPlayer = false;
+    public bool investigatingObjects = true;
+    public bool idle = false;
     public float doorTimer = 0.3f;
     public float browsingTimer = 5f;
     public float collisionTimer = 2f;
@@ -51,33 +53,39 @@ public class AIMovement : MonoBehaviour
             agent.stoppingDistance = 0.2f;
             if (agent.remainingDistance < 1)
             {
-                if (browsingTimer >= 0)
-                {
-                    browsingTimer -= Time.deltaTime;
-                }
-                else
-                {
-                    RaycastHit hit;
-                    ray.origin = transform.position;
-                    ray.direction = transform.TransformDirection(Vector3.forward);
-                    for (int i = 0; i < 100; i++)
+                if (investigatingObjects) {
+                    if (browsingTimer >= 0)
                     {
-                        if (Physics.SphereCast(ray, i, out hit, Mathf.Infinity, layermask, QueryTriggerInteraction.UseGlobal))
+                        browsingTimer -= Time.deltaTime;
+                    }
+                    else
+                    {
+                        RaycastHit hit;
+                        ray.origin = transform.position;
+                        ray.direction = transform.TransformDirection(Vector3.forward);
+                        for (int i = 0; i < 100; i++)
                         {
-                            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.green);
-                            if (hit.transform.gameObject.name != goal.name)
+                            if (Physics.SphereCast(ray, i, out hit, Mathf.Infinity, layermask, QueryTriggerInteraction.UseGlobal))
                             {
-                                goal = hit.transform;
-                                agent.destination = goal.position;
-                                break;
+                                Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.green);
+                                if (hit.transform.gameObject.name != goal.name)
+                                {
+                                    goal = hit.transform;
+                                    agent.destination = goal.position;
+                                    break;
+                                }
+                            }
+                            else
+                            {
+                                agent.destination = WanderingNavAI(transform.position, 50, -1);
                             }
                         }
-                        else
-                        {
-                            agent.destination = WanderingNavAI(transform.position, 50, -1);
-                        }
+                        browsingTimer = 5f;
                     }
-                    browsingTimer = 5f;
+                }
+                if(!investigatingObjects && !idle)
+                {
+                    agent.destination = WanderingNavAI(transform.position, 50, -1);
                 }
             }
         }
