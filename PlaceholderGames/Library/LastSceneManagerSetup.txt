@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/BlackThornReal.unity
+- path: Assets/Tony Parsons/Basement_scaled.unity
   isLoaded: 1
   isActive: 1
