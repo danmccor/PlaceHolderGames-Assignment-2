@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class playerControls : MonoBehaviour {
 
@@ -8,6 +9,10 @@ public class playerControls : MonoBehaviour {
 	public float gravity = -9.8f;
 	private CharacterController charCont;
     public eventManager events;
+    public Image blackOut;
+    public bool fadingToBlack = false;
+    public float blackOutTimer = 2f;
+    public bool PlayerCanMove = true;
 
     private float collisionTimer = 1.5f;
 	// Use this for initialization
@@ -29,7 +34,39 @@ public class playerControls : MonoBehaviour {
 		movement *= Time.deltaTime;
 		movement = transform.TransformDirection(movement);
 
-		charCont.Move(movement);
+        if (PlayerCanMove)
+        {
+            charCont.Move(movement);
+        }
+
+
+        Debug.Log(fadingToBlack);
+        if (fadingToBlack)
+        {
+            if(blackOutTimer >= 0)
+            {
+                blackOut.color = new Color(blackOut.color.r, blackOut.color.g, blackOut.color.b, (2 - blackOutTimer) / 2);
+                blackOutTimer -= Time.deltaTime;
+            }
+            else
+            {
+                fadingToBlack = false;
+                blackOutTimer = 2f;
+            }
+        }
+        if(!fadingToBlack && blackOut.color.a > 0){
+            if (blackOutTimer >= 0)
+            {
+                blackOut.color = new Color(blackOut.color.r, blackOut.color.g, blackOut.color.b, (blackOutTimer) / 2);
+                blackOutTimer -= Time.deltaTime;
+            }
+            else
+            {
+                blackOut.color = new Color(blackOut.color.r, blackOut.color.g, blackOut.color.b, 0);
+                blackOutTimer = 2f;
+            }
+        }
+
 	}
 
     void OnControllerColliderHit(ControllerColliderHit col)
@@ -48,5 +85,15 @@ public class playerControls : MonoBehaviour {
         }
         
     }
-   
+
+    public void FadeToBlack(float time = 0)
+    {
+        Debug.Log("Setting FadeToBlack to true");
+        fadingToBlack = true;
+    }
+    public void FlipPlayerMovement()
+    {
+        PlayerCanMove = !PlayerCanMove;
+    }
+  
 }

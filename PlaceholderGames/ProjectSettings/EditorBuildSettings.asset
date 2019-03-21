@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/UI/MainMenu.unity
+    path: Assets/BlackThornReal/UI/MainMenu.unity
     guid: 248ab76df544d3242a8f1d5cca508f55
   - enabled: 1
-    path: Assets/BlackThornReal.unity
+    path: Assets/BlackThornReal/Scenes/BlackThornReal.unity
     guid: 8317b23979bfc5440b7bb1ff642fbecb
+  - enabled: 1
+    path: Assets/BlackThornReal/Scenes/BlackThornUpper.unity
+    guid: c4e59eb68c19d4b4e8321c31b420d689
   m_configObjects: {}
