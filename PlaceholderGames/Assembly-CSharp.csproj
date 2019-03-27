@@ -53,13 +53,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CMSC\Script\BarScript.cs" />
-     <Compile Include="Assets\CMSC\Script\lowSanity.cs" />
-     <Compile Include="Assets\CMSC\Script\Player.cs" />
-     <Compile Include="Assets\CMSC\Script\SanityControl.cs" />
-     <Compile Include="Assets\CMSC\Script\Stat.cs" />
-     <Compile Include="Assets\CMSC\Script\torch.cs" />
-     <Compile Include="Assets\Daniel McCormick\Objects\Boxes and pallets\PrefabSwitch.cs" />
+     <Compile Include="Assets\BlackThornReal\SceneryBuilding\RunemarkStudio\DarkFantasyKit [Free]\Readme\Parts\Readme.cs" />
+     <Compile Include="Assets\BlackThornReal\UI\UI_Scripts\ChangeScene.cs" />
+     <Compile Include="Assets\BlackThornReal\UI\UI_Scripts\CharacterAttributes.cs" />
+     <Compile Include="Assets\BlackThornReal\UI\UI_Scripts\Interactable.cs" />
+     <Compile Include="Assets\BlackThornReal\UI\UI_Scripts\Inventory.cs" />
+     <Compile Include="Assets\BlackThornReal\UI\UI_Scripts\InventorySlot.cs" />
+     <Compile Include="Assets\BlackThornReal\UI\UI_Scripts\InventoryUI.cs" />
+     <Compile Include="Assets\BlackThornReal\UI\UI_Scripts\Item.cs" />
+     <Compile Include="Assets\BlackThornReal\UI\UI_Scripts\ItemPickup.cs" />
+     <Compile Include="Assets\Chris Martin\GameSettings.cs" />
+     <Compile Include="Assets\Chris Martin\Script\BarScript.cs" />
+     <Compile Include="Assets\Chris Martin\Script\lowSanity.cs" />
+     <Compile Include="Assets\Chris Martin\Script\Player.cs" />
+     <Compile Include="Assets\Chris Martin\Script\SanityControl.cs" />
+     <Compile Include="Assets\Chris Martin\Script\Stat.cs" />
+     <Compile Include="Assets\Chris Martin\Script\torch.cs" />
+     <Compile Include="Assets\Chris Martin\SettingManager.cs" />
+     <Compile Include="Assets\Daniel McCormick\DanDevDungeon\scripts\LevelTransition.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\AIMovement.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\AIscript.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\cameraControl.cs" />
@@ -75,18 +86,10 @@
      <Compile Include="Assets\Daniel McCormick\Scripts\playerControls.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\shatterScript.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\windScript.cs" />
-     <Compile Include="Assets\LookToPlayer.cs" />
-     <Compile Include="Assets\SceneryBuilding\RunemarkStudio\DarkFantasyKit [Free]\Readme\Parts\Readme.cs" />
-     <Compile Include="Assets\Tony Parsons\Dialogue.cs" />
-     <Compile Include="Assets\Tony Parsons\Underwater.cs" />
-     <Compile Include="Assets\UI\UI_Scripts\ChangeScene.cs" />
-     <Compile Include="Assets\UI\UI_Scripts\CharacterAttributes.cs" />
-     <Compile Include="Assets\UI\UI_Scripts\Interactable.cs" />
-     <Compile Include="Assets\UI\UI_Scripts\Inventory.cs" />
-     <Compile Include="Assets\UI\UI_Scripts\InventorySlot.cs" />
-     <Compile Include="Assets\UI\UI_Scripts\InventoryUI.cs" />
-     <Compile Include="Assets\UI\UI_Scripts\Item.cs" />
-     <Compile Include="Assets\UI\UI_Scripts\ItemPickup.cs" />
+     <Compile Include="Assets\TeleportScript.cs" />
+     <Compile Include="Assets\Tony Parsons\Scripts\Dialogue.cs" />
+     <Compile Include="Assets\Tony Parsons\Scripts\LookToPlayer.cs" />
+     <Compile Include="Assets\Tony Parsons\Scripts\Underwater.cs" />
      <None Include="Assets\Daniel McCormick\DanDevDungeon\Low Polygon Potions Pack\Readme.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Daniel/Documents/GitHub/PlaceHolderGames-Assignment-2/PlaceholderGames/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
