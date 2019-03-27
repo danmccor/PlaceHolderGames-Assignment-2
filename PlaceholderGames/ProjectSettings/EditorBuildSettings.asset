@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BlackThornReal/Scenes/BlackThornUpper.unity
     guid: c4e59eb68c19d4b4e8321c31b420d689
+  - enabled: 1
+    path: Assets/BlackThornReal/Scenes/BasementReal.unity
+    guid: b143c10d44cc294428cd7eec6f8962ef
   m_configObjects: {}

@@ -7,6 +7,7 @@ using UnityEngine.AI;
 public class TeleportScript : MonoBehaviour
 {
     private bool teleportingPlayer;
+    public Transform teleportPoint;
     private float teleTime = 2f; 
     public int buildLevel;
     private GameObject player; 
@@ -39,7 +40,7 @@ public class TeleportScript : MonoBehaviour
         if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("AI"))
         {
             bool alreadyLoaded = false;
-            for (int i = 0; i < SceneManager.sceneCount; ++i)
+            for (int i = 0; i <= SceneManager.sceneCount; ++i)
             {
                 Scene scene = SceneManager.GetSceneAt(i);
                 if (scene.buildIndex == buildLevel)
@@ -66,7 +67,7 @@ public class TeleportScript : MonoBehaviour
 
     void TeleportPlayer()
     {
-        player.gameObject.transform.position = gameObject.transform.GetChild(0).transform.position;
+        player.gameObject.transform.position = teleportPoint.position;
         teleportingPlayer = false;
         player.gameObject.GetComponent<playerControls>().FlipPlayerMovement();
     }

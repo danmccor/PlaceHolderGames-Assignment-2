@@ -28,7 +28,11 @@ public class AIMovement : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-       //agent.destination = goal.position;
+        agent.destination = goal.position;
+        if(goal.position == null)
+        {
+            agent.destination = WanderingNavAI(transform.position, 50, -1);
+        }
         //agent.stoppingDistance = stoppingDistance;
     }
 
