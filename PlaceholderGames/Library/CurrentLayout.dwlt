@@ -14,25 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 8
     y: 51
     width: 1904
     height: 981
   m_ShowMode: 4
   m_Title: 
-  m_RootView: {fileID: 7}
+  m_RootView: {fileID: 6}
   m_MinSize: {x: 950, y: 300}
-=======
-    x: 0
-    y: 42
-    width: 1368
-    height: 830
-  m_ShowMode: 4
-  m_Title: 
-  m_RootView: {fileID: 8}
-  m_MinSize: {x: 950, y: 398}
->>>>>>> parent of efe5578... Extra Commit
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,54 +31,23 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 619
-    y: 0
-    width: 899
-    height: 563
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 0
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
+  m_EditorHideFlags: 1
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
+  - {fileID: 9}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1368
-    height: 780
-  m_MinSize: {x: 887, y: 348}
-  m_MaxSize: {x: 16012, y: 8048}
-  vertical: 1
-  controlID: 77
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
+    width: 1904
+    height: 931
+  m_MinSize: {x: 683, y: 498}
+  m_MaxSize: {x: 14004, y: 14048}
+  vertical: 0
+  controlID: 51
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -98,64 +56,24 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-=======
-  m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> parent of efe5578... Extra Commit
-=======
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> parent of efe5578... Extra Commit
-=======
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> parent of efe5578... Extra Commit
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 4}
+  m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 0
-    y: 30
-    width: 1904
-    height: 931
-  m_MinSize: {x: 887, y: 498}
-  m_MaxSize: {x: 16012, y: 14048}
-  vertical: 0
-  controlID: 75
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-    x: 618
+    x: 1518
     y: 0
-    width: 473
-    height: 412
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 21}
+    width: 386
+    height: 931
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 21}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,60 +83,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-=======
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> parent of efe5578... Extra Commit
-=======
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> parent of efe5578... Extra Commit
-=======
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> parent of efe5578... Extra Commit
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 11}
-  - {fileID: 5}
+  m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 1518
+    x: 0
     y: 0
-    width: 386
-    height: 931
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+    width: 376
+    height: 563
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-    x: 0
-    y: 0
-    width: 1368
-    height: 780
-  m_MinSize: {x: 887, y: 348}
-  m_MaxSize: {x: 16012, y: 8048}
-  vertical: 0
-  controlID: 78
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,42 +108,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1091
-    y: 0
-    width: 277
-    height: 780
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
->>>>>>> parent of efe5578... Extra Commit
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -271,84 +116,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 202
-    height: 563
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-    width: 206
-    height: 412
->>>>>>> parent of efe5578... Extra Commit
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &6
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
---- !u!114 &7
->>>>>>> parent of efe5578... Extra Commit
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     y: 563
     width: 1518
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-    y: 412
-    width: 1091
->>>>>>> parent of efe5578... Extra Commit
     height: 368
   m_MinSize: {x: 232, y: 274}
   m_MaxSize: {x: 10002, y: 10024}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 13}
   m_Panes:
-<<<<<<< HEAD
-  - {fileID: 14}
-  - {fileID: 19}
+  - {fileID: 13}
+  - {fileID: 18}
   m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &7
-=======
-  - {fileID: 17}
-  - {fileID: 22}
-  m_Selected: 1
   m_LastSelected: 0
---- !u!114 &8
->>>>>>> parent of efe5578... Extra Commit
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -361,47 +140,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 7}
+  - {fileID: 2}
   - {fileID: 8}
-  - {fileID: 3}
-  - {fileID: 9}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  - {fileID: 2}
-  - {fileID: 10}
->>>>>>> parent of efe5578... Extra Commit
-=======
-  - {fileID: 2}
-  - {fileID: 10}
->>>>>>> parent of efe5578... Extra Commit
-=======
-  - {fileID: 2}
-  - {fileID: 10}
->>>>>>> parent of efe5578... Extra Commit
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 1904
     height: 981
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &8
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-    width: 1368
-    height: 830
-  m_MinSize: {x: 950, y: 300}
-  m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &9
->>>>>>> parent of efe5578... Extra Commit
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -418,34 +168,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 1904
-=======
-    width: 1368
->>>>>>> parent of efe5578... Extra Commit
-=======
-    width: 1368
->>>>>>> parent of efe5578... Extra Commit
-=======
-    width: 1368
->>>>>>> parent of efe5578... Extra Commit
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &9
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
---- !u!114 &10
->>>>>>> parent of efe5578... Extra Commit
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -461,27 +189,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     y: 961
     width: 1904
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &10
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-    y: 810
-    width: 1368
-    height: 20
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
---- !u!114 &11
->>>>>>> parent of efe5578... Extra Commit
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -494,50 +207,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - {fileID: 11}
-  - {fileID: 6}
-=======
-  - {fileID: 12}
-  - {fileID: 7}
->>>>>>> parent of efe5578... Extra Commit
-=======
-  - {fileID: 12}
-  - {fileID: 7}
->>>>>>> parent of efe5578... Extra Commit
-=======
-  - {fileID: 12}
-  - {fileID: 7}
->>>>>>> parent of efe5578... Extra Commit
+  - {fileID: 10}
+  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 1518
     height: 931
-  m_MinSize: {x: 610, y: 498}
-  m_MaxSize: {x: 12010, y: 14048}
+  m_MinSize: {x: 406, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 76
---- !u!114 &11
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-    width: 1091
-    height: 780
-  m_MinSize: {x: 610, y: 348}
-  m_MaxSize: {x: 12010, y: 8048}
-  vertical: 1
-  controlID: 79
---- !u!114 &12
->>>>>>> parent of efe5578... Extra Commit
+  controlID: 52
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -550,53 +232,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - {fileID: 5}
-  - {fileID: 12}
-  - {fileID: 2}
-=======
-  - {fileID: 6}
-  - {fileID: 13}
-  - {fileID: 3}
->>>>>>> parent of efe5578... Extra Commit
-=======
-  - {fileID: 6}
-  - {fileID: 13}
-  - {fileID: 3}
->>>>>>> parent of efe5578... Extra Commit
-=======
-  - {fileID: 6}
-  - {fileID: 13}
-  - {fileID: 3}
->>>>>>> parent of efe5578... Extra Commit
+  - {fileID: 4}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1518
     height: 563
-  m_MinSize: {x: 610, y: 224}
-  m_MaxSize: {x: 12010, y: 4024}
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 77
---- !u!114 &12
-=======
-  controlID: 80
---- !u!114 &13
->>>>>>> parent of efe5578... Extra Commit
-=======
-  controlID: 80
---- !u!114 &13
->>>>>>> parent of efe5578... Extra Commit
-=======
-  controlID: 80
---- !u!114 &13
->>>>>>> parent of efe5578... Extra Commit
+  controlID: 53
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -611,55 +259,20 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 202
-=======
-    x: 206
->>>>>>> parent of efe5578... Extra Commit
+    x: 376
     y: 0
-    width: 417
+    width: 1142
     height: 563
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
-<<<<<<< HEAD
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &13
-=======
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-    x: 206
-    y: 0
-    width: 412
-    height: 412
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
-<<<<<<< HEAD
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-  m_ActualView: {fileID: 20}
-  m_Panes:
-  - {fileID: 20}
   - {fileID: 16}
-  - {fileID: 15}
+  - {fileID: 17}
+  - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &14
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -667,9 +280,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   m_EditorHideFlags: 1
   m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -679,148 +289,16 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: Asset Store
     m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 300, y: 360}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Navigation
-    m_Image: {fileID: 7874161543223113035, guid: 0000000000000000d000000000000000,
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     x: 468
     y: 181
     width: 973
     height: 501
   m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &14
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-    x: 1091
-    y: 72
-    width: 275
-    height: 760
-  m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 287
-    y: 72
-    width: 388
-    height: 451
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: 1107226363895249722, guid: b7abd1d49e110614889e2eab58e68f9a, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: -34.5
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: b7abd1d49e110614889e2eab58e68f9a,
-    type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: 1107226363895249722, guid: b7abd1d49e110614889e2eab58e68f9a,
-      type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 1
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &16
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 2048, y: 2048}
-  m_TitleContent:
-    m_Text: Asset Store
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 210
-    y: 72
-    width: 677
-    height: 392
-  m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &17
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -841,21 +319,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 8
     y: 644
     width: 1516
-=======
-    x: 0
-    y: 484
-    width: 1089
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
     height: 348
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -870,56 +336,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - Assets/BlackThornReal/SceneryBuilding/RunemarkStudio/DarkFantasyKit [Free]/Readme
+    - Assets/BlackThornReal/Scenes/BlackThornReal
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/BlackThornReal/SceneryBuilding/RunemarkStudio/DarkFantasyKit [Free]/Readme
+  - Assets/BlackThornReal/Scenes/BlackThornReal
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Daniel\Documents\GitHub\PlaceHolderGames-Assignment-2\PlaceholderGames
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 213}
-    m_SelectedIDs: 9e0f0000
-    m_LastClickedID: 3998
-    m_ExpandedIDs: 00000000fe0a00003a0b0000ba0b00004a10000054100000fa100000581300002c14000092140000e41400003815000008170000241700000c18000080180000c8960000ca96000000ca9a3b
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-    - Assets
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-<<<<<<< HEAD
-=======
-    - Assets
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-  - Assets
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Dan_9\Documents\Placeholder Games\PlaceHolderGames-Assignment-2\PlaceholderGames
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 143}
-    m_SelectedIDs: dc0a0000
-    m_LastClickedID: 2780
-    m_ExpandedIDs: 00000000dc0a0000620b00008c0b0000f00f0000f80f000084100000c61300000a1400003a1400008c140000a415000088160000ee1600005a170000145500001655000000ca9a3b
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
+    scrollPos: {x: 0, y: 293}
+    m_SelectedIDs: aa2d0000
+    m_LastClickedID: 11690
+    m_ExpandedIDs: 00000000ac270000e827000068280000f82c0000022d0000a82d000006300000d2300000383100008a310000de310000ae330000ca330000b234000026350000da790000dc79000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -935,19 +365,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       m_ClientGUIView: {fileID: 0}
-=======
-      m_ClientGUIView: {fileID: 7}
->>>>>>> parent of efe5578... Extra Commit
-=======
-      m_ClientGUIView: {fileID: 7}
->>>>>>> parent of efe5578... Extra Commit
-=======
-      m_ClientGUIView: {fileID: 7}
->>>>>>> parent of efe5578... Extra Commit
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -959,19 +377,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000fe0a00003a0b0000ba0b00004a10000054100000fa100000581300002c14000092140000e41400003815000008170000241700000c18000080180000c8960000ca960000
-=======
-    m_ExpandedIDs: 00000000dc0a0000620b00008c0b0000f00f0000f80f000084100000c61300000a1400003a1400008c140000a415000088160000ee1600005a1700001455000016550000
->>>>>>> parent of efe5578... Extra Commit
-=======
-    m_ExpandedIDs: 00000000dc0a0000620b00008c0b0000f00f0000f80f000084100000c61300000a1400003a1400008c140000a415000088160000ee1600005a1700001455000016550000
->>>>>>> parent of efe5578... Extra Commit
-=======
-    m_ExpandedIDs: 00000000dc0a0000620b00008c0b0000f00f0000f80f000084100000c61300000a1400003a1400008c140000a415000088160000ee1600005a1700001455000016550000
->>>>>>> parent of efe5578... Extra Commit
+    m_ExpandedIDs: 00000000ac270000e827000068280000f82c0000022d0000a82d000006300000d2300000383100008a310000de310000ae330000ca330000b234000026350000da790000dc790000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -996,21 +402,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-    m_SelectedInstanceIDs: 4630feff
-    m_LastClickedInstanceID: -118714
-    m_HadKeyboardFocusLastEvent: 1
->>>>>>> parent of efe5578... Extra Commit
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1027,7 +421,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 13}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1035,22 +429,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 547}
     m_GridSize: 64
-  m_DirectoriesAreaWidth: 237
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &15
-=======
---- !u!114 &18
->>>>>>> parent of efe5578... Extra Commit
-=======
---- !u!114 &18
->>>>>>> parent of efe5578... Extra Commit
-=======
---- !u!114 &18
->>>>>>> parent of efe5578... Extra Commit
+  m_DirectoriesAreaWidth: 115
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1071,29 +453,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     x: 1526
     y: 81
     width: 384
     height: 911
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-    x: 1091
-    y: 72
-    width: 275
-    height: 760
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -1104,19 +467,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &16
-=======
---- !u!114 &19
->>>>>>> parent of efe5578... Extra Commit
-=======
---- !u!114 &19
->>>>>>> parent of efe5578... Extra Commit
-=======
---- !u!114 &19
->>>>>>> parent of efe5578... Extra Commit
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1137,28 +488,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     x: 8
     y: 81
-    width: 200
+    width: 374
     height: 543
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-    x: 0
-    y: 72
-    width: 204
-    height: 392
->>>>>>> parent of efe5578... Extra Commit
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1e140000
+      m_SelectedIDs: aa2d0000
       m_LastClickedID: 0
       m_ExpandedIDs: 
       m_RenameOverlay:
@@ -1176,15 +514,15 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 13f5285dede5a7541bf6f3a73909828d
---- !u!114 &17
+  m_WindowGUID: c0286cf554197ff41bbb858a0a74b9e0
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1200,24 +538,25 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 0}
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+      type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 210
+    x: 384
     y: 81
-    width: 413
+    width: 1138
     height: 543
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_WindowGUID: 677f3919e9f8a8843841f58c22be4328
+  m_WindowGUID: d361d6244f75dd948a51d5e5ead67d52
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.5772767, y: 4.9547753, z: 0.8013012}
+    m_Target: {x: -2.7082868, y: 2.8762693, z: 2.3691583}
     speed: 2
-    m_Value: {x: -5.5772767, y: 4.9547753, z: 0.8013012}
+    m_Value: {x: -2.7082868, y: 2.8762693, z: 2.3691583}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1245,13 +584,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.0008125509, y: -0.9991642, z: -0.025155256, w: -0.032210324}
+    m_Target: {x: -0.04278657, y: 0.83460927, z: -0.06549186, w: -0.5452592}
     speed: 2
-    m_Value: {x: 0.0008125509, y: -0.9991642, z: -0.025155256, w: -0.032210324}
+    m_Value: {x: -0.04278657, y: 0.83460927, z: -0.06549186, w: -0.5452592}
   m_Size:
-    m_Target: 22
+    m_Target: 10
     speed: 2
-    m_Value: 22
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1263,18 +602,7 @@ MonoBehaviour:
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &18
-=======
---- !u!114 &21
-<<<<<<< HEAD
->>>>>>> parent of efe5578... Extra Commit
-=======
---- !u!114 &21
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1295,23 +623,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 627
-    y: 81
-    width: 895
-    height: 543
-=======
-=======
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
-    x: 618
-    y: 72
-    width: 469
-    height: 392
->>>>>>> parent of efe5578... Extra Commit
+    x: 507
+    y: 94
+    width: 1532
+    height: 790
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -1323,10 +638,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -447.5
-    m_HBaseRangeMax: 447.5
-    m_VBaseRangeMin: -263
-    m_VBaseRangeMax: 263
+    m_HBaseRangeMin: -766
+    m_HBaseRangeMax: 766
+    m_VBaseRangeMin: -386.5
+    m_VBaseRangeMax: 386.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1344,41 +659,30 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 895
-      height: 526
+      width: 1532
+      height: 773
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 447.5, y: 263}
+    m_Translation: {x: 766, y: 386.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -447.5
-      y: -263
-      width: 895
-      height: 526
+      x: -766
+      y: -386.5
+      width: 1532
+      height: 773
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
-  m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 895, y: 543}
+  m_CurrentColorSpace: 1
+  m_LastWindowPixelSize: {x: 1532, y: 790}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
   m_XRRenderMode: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &19
-=======
---- !u!114 &22
-<<<<<<< HEAD
->>>>>>> parent of efe5578... Extra Commit
-=======
---- !u!114 &22
->>>>>>> parent of efe5578... Extra Commit
-=======
->>>>>>> parent of efe5578... Extra Commit
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1399,26 +703,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     x: 8
-    y: 644
-    width: 1516
-=======
-    x: 0
-    y: 484
-    width: 1089
->>>>>>> parent of efe5578... Extra Commit
-=======
-    x: 0
-    y: 484
-    width: 1089
->>>>>>> parent of efe5578... Extra Commit
-=======
-    x: 0
-    y: 484
-    width: 1089
->>>>>>> parent of efe5578... Extra Commit
-    height: 348
+    y: 718
+    width: 1366
+    height: 308
   m_PersistentViewDataDictionary: {fileID: 0}
