@@ -68,7 +68,7 @@ public class openDoor : MonoBehaviour
     public void DoorLocked(bool lockState)
     {
         doorLocked = lockState;
-        if (lockState = true)
+        if (lockState == true)
         {
             GetComponent<NavMeshObstacle>().enabled = true;
         }

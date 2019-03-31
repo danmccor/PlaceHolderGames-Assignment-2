@@ -14,6 +14,9 @@ public class playerControls : MonoBehaviour {
 
     public bool fadingToBlack = false;
     public float blackOutTimer = 2f;
+
+    public bool playerBlinking = false;
+    private float blinkTimer = 0.5f;
     public bool PlayerCanMove = true;
 
     private float collisionTimer = 1.5f;
@@ -68,7 +71,18 @@ public class playerControls : MonoBehaviour {
                 blackOutTimer = 2f;
             }
         }
-        
+        if (playerBlinking)
+        {
+            if (blackOut.color.a == 0)
+            {
+                blackOut.color = new Color(blackOut.color.r, blackOut.color.g, blackOut.color.b, blackOut.color.a + 0.1f);
+            }
+            else
+            {
+                blackOut.color = new Color(blackOut.color.r, blackOut.color.g, blackOut.color.b, blackOut.color.a - 0.1f);
+                playerBlinking = false;
+            }
+        }
     }
 
     void OnControllerColliderHit(ControllerColliderHit col)

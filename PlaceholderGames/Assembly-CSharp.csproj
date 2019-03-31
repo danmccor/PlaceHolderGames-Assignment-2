@@ -85,8 +85,9 @@
      <Compile Include="Assets\Daniel McCormick\Scripts\playerControl2.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\playerControls.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\shatterScript.cs" />
+     <Compile Include="Assets\Daniel McCormick\Scripts\TeleportScript.cs" />
      <Compile Include="Assets\Daniel McCormick\Scripts\windScript.cs" />
-     <Compile Include="Assets\TeleportScript.cs" />
+     <Compile Include="Assets\RuneRotation.cs" />
      <Compile Include="Assets\Tony Parsons\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Tony Parsons\Scripts\LookToPlayer.cs" />
      <Compile Include="Assets\Tony Parsons\Scripts\Underwater.cs" />

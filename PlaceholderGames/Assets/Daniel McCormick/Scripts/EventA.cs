@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EventA : MonoBehaviour
 {
+
+    public List<GameObject> doors = new List<GameObject>();
     public GameObject player;
     private float bloodTimers = 5f;
     private int currentBlood = 0;
@@ -15,16 +17,15 @@ public class EventA : MonoBehaviour
 
     public GameObject bloodSurface;
 
-    public GameObject door1;
-    public GameObject door2;
     // Start is called before the first frame update
     void Start()
     {
-        door1.GetComponent<openDoor>().CloseDoor();
-        door2.GetComponent<openDoor>().CloseDoor();
-
-        door1.GetComponent<openDoor>().DoorLocked(true);
-        door2.GetComponent<openDoor>().DoorLocked(true);
+        player = GameObject.FindGameObjectWithTag("Player");
+        for (int i = 0; i < doors.Count; i++)
+        {
+            doors[i].GetComponent<openDoor>().CloseDoor();
+            doors[i].GetComponent<openDoor>().DoorLocked(true);
+        }
     }
 
     // Update is called once per frame
@@ -80,11 +81,17 @@ public class EventA : MonoBehaviour
         }
         else
         {
+            
+            for (int i = 0; i < doors.Count; i++)
+            {
+                doors[i].GetComponent<openDoor>().DoorLocked(false);
+            }
+            player.GetComponent<playerControls>().playerBlinking = true;
             this.gameObject.SetActive(false);
         }
-        }
-
     }
+
+}
     
 
     

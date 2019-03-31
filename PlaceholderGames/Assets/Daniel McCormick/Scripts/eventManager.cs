@@ -10,7 +10,7 @@ public class eventManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this);
+        //DontDestroyOnLoad(this);
         for(int i = 0; i < triggers.Count; i++)
         {
             eventLinks.Add(triggers[i].GetHashCode(), events[i]);
