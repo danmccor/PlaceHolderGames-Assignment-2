@@ -11,8 +11,10 @@ public class objectMover : MonoBehaviour
     int layermaskDoor = 1 << 13;
     public GameObject targetObject;
     private GameObject holdPosition;
+    public GameObject textObject;
     private bool holding = false;
     Ray ray;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -45,8 +47,15 @@ public class objectMover : MonoBehaviour
         {
             if (targetObject.CompareTag("Door") && Input.GetMouseButton(0))
             {
-                Debug.Log("Opening Door");
-                targetObject.GetComponent<openDoor>().OpenDoor();
+                if (targetObject.GetComponent<openDoor>().doorLocked == false)
+                {
+                    Debug.Log("Opening Door");
+                    targetObject.GetComponent<openDoor>().OpenDoor();
+                }
+                else {
+
+                    textObject.GetComponent<DisplayText>().displayText("The door is locked...");
+                }
             }
             else if (Input.GetMouseButton(0) && targetObject != null)
             {
