@@ -37,6 +37,7 @@ public class CamCorder_Event : MonoBehaviour
             CamCorder_Cutscene.SetActive(false);
             Plae.transform.position = restoreCamPosition.position;
             Plae.gameObject.SetActive(true);
+            this.gameObject.SetActive(false);
         }
     }
 

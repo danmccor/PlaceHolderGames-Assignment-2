@@ -100,6 +100,7 @@
     <Compile Include="Assets\Tony Parsons\Scripts\Dialogue.cs" />
     <Compile Include="Assets\Tony Parsons\Scripts\LookToPlayer.cs" />
     <Compile Include="Assets\Tony Parsons\Scripts\Teleport.cs" />
+    <Compile Include="Assets\Tony Parsons\Scripts\Test_trigger.cs" />
     <Compile Include="Assets\Tony Parsons\Scripts\Trigger_CamCorder.cs" />
     <Compile Include="Assets\Tony Parsons\Scripts\Underwater.cs" />
     <None Include="Assets\Daniel McCormick\DanDevDungeon\Low Polygon Potions Pack\Readme.txt" />
