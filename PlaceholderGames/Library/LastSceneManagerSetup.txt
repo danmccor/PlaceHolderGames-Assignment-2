@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/BlackThornReal/Scenes/BlackThornUpperEdit.unity
+- path: Assets/BlackThornReal/Scenes/BlackThornReal.unity
   isLoaded: 1
   isActive: 1
