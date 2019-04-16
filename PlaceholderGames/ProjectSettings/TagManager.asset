@@ -8,6 +8,7 @@ TagManager:
   - AI
   - eventTrigger
   - boxes
+  - Text Box
   layers:
   - Default
   - TransparentFX

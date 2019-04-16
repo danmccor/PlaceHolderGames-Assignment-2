@@ -31,6 +31,8 @@ public class Dialogue : MonoBehaviour
 
     private void Start()
     {
+        if (!BoxToWriteIn)
+            BoxToWriteIn = GameObject.Find("Subtitles").GetComponent<Text>();
         MakeTalk = false;
         Spoken = false;
         talking = false;
