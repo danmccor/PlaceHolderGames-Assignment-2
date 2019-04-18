@@ -112,7 +112,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: ed45101357ebf0748a8c63ea1406b0d0, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: e3fb53a317c725f478d7e611eee3478d, type: 2}
 --- !u!1001 &1133421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5836,15 +5836,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 80009c74748d82047b88c3f400e09c3d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.59
+      value: 1.79
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 80009c74748d82047b88c3f400e09c3d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.36639977
+      value: -0.37
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 80009c74748d82047b88c3f400e09c3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.725
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 80009c74748d82047b88c3f400e09c3d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6800,7 +6800,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 144961115}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e0435691a61cd34ba57b2c1a3f55f21, type: 3}
   m_Name: 
@@ -8783,7 +8783,7 @@ PrefabInstance:
     - target: {fileID: 5584329232683852236, guid: 6e97df394426ac547a8510f3890e7dba,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.763921
+      value: -12.951
       objectReference: {fileID: 0}
     - target: {fileID: 5584329232683852236, guid: 6e97df394426ac547a8510f3890e7dba,
         type: 3}
@@ -8854,7 +8854,7 @@ PrefabInstance:
         type: 3}
       propertyPath: goal
       value: 
-      objectReference: {fileID: 395046585}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e97df394426ac547a8510f3890e7dba, type: 3}
 --- !u!4 &195289727 stripped
@@ -54580,7 +54580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1537611499, guid: 91db971f356a07d42b095b71e57a75af, type: 3}
       propertyPath: doorLocked
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91db971f356a07d42b095b71e57a75af, type: 3}
@@ -79663,6 +79663,25 @@ CapsuleCollider:
   m_Height: 1.8874583
   m_Direction: 1
   m_Center: {x: 0, y: 0.8361299, z: 0.006931305}
+--- !u!95 &1639255154
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639255147}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1639726823
 PrefabInstance:
   m_ObjectHideFlags: 0
