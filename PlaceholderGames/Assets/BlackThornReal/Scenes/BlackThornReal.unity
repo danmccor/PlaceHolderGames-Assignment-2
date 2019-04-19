@@ -18389,7 +18389,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   triggers:
-  - {fileID: 0}
   - {fileID: 575361775}
   - {fileID: 241424059}
   - {fileID: 967716127}
@@ -18398,7 +18397,6 @@ MonoBehaviour:
   - {fileID: 124559480}
   - {fileID: 1205698551}
   events:
-  - {fileID: 0}
   - {fileID: 628098823}
   - {fileID: 1889396259}
   - {fileID: 844310771}
